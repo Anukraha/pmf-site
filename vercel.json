@@ -1,15 +1,3 @@
 {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/Home", "dest": "/" },
-      { "src": "/About", "dest": "/" },
-      { "src": "/Franchises", "dest": "/" },
-      { "src": "/Franchises1", "dest": "/" },
-      { "src": "/Buy-Franchise", "dest": "/" },
-      { "src": "/Submit-Franchise", "dest": "/" },
-      { "src": "/Videos", "dest": "/" },
-      { "src": "/Contact-Us", "dest": "/" },
-      { "src": "/:id", "dest": "/" }
-    ]
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
   }
-  
