@@ -1,4 +1,15 @@
-{"rewrites":[
-    {"source":"/:path((?!api/).*)" , "destination" : "/"}
+{
+    "routes": [
+      { "src": "/", "dest": "/Home" },
+      { "src": "/Home", "dest": "/Home" },
+      { "src": "/About", "dest": "/About" },
+      { "src": "/Franchises", "dest": "/Franchises" },
+      { "src": "/Franchises1", "dest": "/Franchises" },
+      { "src": "/Buy-Franchise", "dest": "/Buy-Franchise" },
+      { "src": "/Submit-Franchise", "dest": "/Submit-Franchise" },
+      { "src": "/Videos", "dest": "/Videos" },
+      { "src": "/Contact-Us", "dest": "/Contact-Us" },
+      { "src": "/:id", "dest": "/:id" }
     ]
-    }
+  }
+  
